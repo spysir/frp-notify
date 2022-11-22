@@ -1,3 +1,8 @@
+## docker 部署
+
+docker run -d --restart=always --name=frp-notify -p 58080:80 -v $(pwd)/frp-notify.json:/frp-notify.json ghcr.io/arugal/frp-notify/frp-notify:latest
+
+
 ## frp-notify
 
 [![Build](https://github.com/arugal/frp-notify/workflows/Build/badge.svg?branch=master)](https://github.com/arugal/frp-notify/actions?query=branch%3Amaster+event%3Apush+workflow%3ABuild)
